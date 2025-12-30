@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devdimitrijes' Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b613f154c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="darkLightMode">
+        <img id="darkLightPic" src="Pictures/Dark_mode.png" alt="Dark/Light mode picture">
+    </div>
+
+    <header>
+        <div id="headerDiv">
+            <h2 class="naslovHeader">devdimitrije<span class="naslovSpan">s</span></h2>
+
+            <div id="headerLinkovi">
+                <a href="#" class="headerLink">Home</a>
+                <a href="#secAboutMe" class="headerLink">About me</a>
+                <a href="#secMyProjects" class="headerLink">Projects</a>
+                <a href="#formaDiv" class="headerLink">Contact</a>
+            </div>
+
+            <div id="hamburgerMenu">
+                <span class="hamburgerDeo"></span>
+                <span class="hamburgerDeo"></span>
+                <span class="hamburgerDeo"></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="secWhyMe">
+        <h1 id="whyMeNaslov">Why me?</h1>
+        <p id="whyMeText">a young developer who is always ready to work and learn something new.</p>
+    </section>
+
+    <section id="secAboutMe">
+        <h3 id="aboutMeNaslov">About me</h3>
+
+        <div id="aboutMeFlex">
+            <div id="aboutMeSlika">
+                <img id="profilnaSlika" src="Pictures/PurpleDragon.png" alt="My picture">
+            </div>
+
+            <div id="aboutMeKartice">
+                <button id="backButton" class="InAnim"><i id="backButtonArrow" class="fa-solid fa-arrow-left"></i></button>
+                <h5 id="naslovVestine">Naslov</h5>
+                <!-- <p class="tekstVestine">• Logical thinking
+                    • Analytical problem solving
+                    • Experience with HTML, CSS, JS, and C# programming
+                    • Working with APIs and integrations</p> -->
+                <div id="miniKartice" class="InAnim">
+                    <button class="miniKartica" id="kartica1"></button>
+                    <button class="miniKartica" id="kartica2"></button>
+                    <button class="miniKartica" id="kartica3"></button>
+                </div>
+
+                <div class="aboutMeKarta" id="skillsKarta">
+                    <h4 class="vestine" id="vestineSkills">Skills</h4>
+                </div>
+                <div class="aboutMeKarta" id="ExpKarta">
+                    <h4 class="vestine" id="vestineExp">Experience</h4>
+                </div>
+                <div class="aboutMeKarta" id="EduKarta">
+                    <h4 class="vestine" id="vestineEdu">Education</h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="secMyProjects">
+        <h5 id="myProjectsNaslov">My projects</h5>
+
+        <a href="https://github.com/devdimitrijes?tab=repositories" id="GitHubLink">
+            <div id="myProjectsDiv">
+                <img id="GHLogo" src="Pictures/GitHubLogo_White.png" alt="GitHub Logo">
+                <p id="GHTekst">GitHub</p>
+            </div>
+        </a>
+    </section>
+
+    <section id="secContact">
+        <div id="Socials">
+            <h5 id="SocialsNaslov">Socials</h5>
+
+            <div id="socialsDiv">
+                <a href="https://github.com/devdimitrijes" class="SocialMedia"><img id="GHSlika"
+                        src="Pictures/GitHubLogo_White.png" alt="GHSocials" class="socialMediaPic"></a>
+                <a href="mailto:dimitrije.itdev@gmail.com" class="SocialMedia"><img id="GmailSlika"
+                        src="Pictures/Gmail_White.png" alt="GmailSocials" class="socialMediaPic"></a>
+                <!-- OBEZBEDITI OD SPAMA!!!!!! -->
+                <div>
+                    <div class="SocialMedia"><img id="DiscordSlika" src="Pictures/Discord_White.png"
+                            alt="DiscordSocials" class="socialMediaPic">
+                        <p id="discordName">dimi_35</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="formaDiv">
+
+            <div id="formaNaslovi">
+                <h5 id="formah5">You need a developer?</h5>
+                <h6 id="formah6">Contact me!</h6>
+            </div>
+
+            <form id="kontaktForma">
+                <div class="formaLblInput">
+                    <label for="korisnikName">Name:</label>
+                    <input type="text" id="korisnikName">
+                </div>
+
+                <div class="formaLblInput">
+                    <label for="korisnikLastname">Last name:</label>
+                    <input type="text" id="korisnikLastname">
+                </div>
+
+                <div class="formaLblInput">
+                    <label for="korisnikEmail">Email:</label>
+                    <input type="email" name="" id="korisnikEmail">
+                </div>
+
+                <div class="formaLblInput">
+                    <label for="korisnikPoruka">Message:</label>
+                    <textarea name="" id="korisnikPoruka"></textarea>
+                </div>
+
+                <div id="formaDugmad">
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <p id="futerTekst">Dimitrije Stamenković|©|2025</p>
+    </footer>
+
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>

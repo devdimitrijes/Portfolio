@@ -1,0 +1,22 @@
+1️⃣ Bela (Background)
+HEX: #F9F9F9
+(Блага бела, није "previše bela", да не zamara oči.)
+
+2️⃣ Crna (Header/Footer)
+HEX: #1E1E1E
+(Мека црна, није "pitch black", лепше изгледа за футере и header.)
+
+3️⃣ Ljubičasta (Primarni akcenti — tekst, dugmad)
+HEX: #5D3FD3
+(Royal Purple — дубља, тамнија љубичаста, изгледа луксузно и не замара очи)
+
+4️⃣ Svetlo Ljubičasta (Hover efekti, istaknuti tekst)
+HEX: #C9A7F5
+(Блага светло љубичаста, одлична за hover ефекте, иконице или суптилне елементе.)
+
+5️⃣ Siva (Sekundarni текстови, border-i)
+HEX: #D9D9D9
+(Фина neutralna сива за детаље, да не би све било црно-бело.)
+
+6. Ljubičasta - Boja za Why me naslov
+HEX: #654ebf;
